@@ -42,5 +42,6 @@ server-id         = 223344
 log_bin           = mysql-bin
 expire_logs_days  = 1
 binlog_format     = row
-
+expire-logs-days  = 1
+binlog-format     = row
 
